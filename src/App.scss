@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Animated Background */
+body {
+    margin: 0;
+    padding: 0;
+    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+    -webkit-animation: 10s linear 0s normal none infinite animate;
+    -moz-animation: 10s linear 0s normal none infinite animate;
+    -ms-animation: 10s linear 0s normal none infinite animate;
+    -o-animation: 10s linear 0s normal none infinite animate;
+    animation: 10s linear 0s normal none infinite animate;
+    font-family: 'Poppins', sans-serif;
+}
+
+@-webkit-keyframes animate {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 500px 0;
+    }
+}
+
+@-moz-keyframes animate {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 500px 0;
+    }
+}
+
+@-ms-keyframes animate {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 500px 0;
+    }
+}
+
+@-o-keyframes animate {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 500px 0;
+    }
+}
+
+@keyframes animate {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 500px 0;
+    }
+}
+
+// Buttons
+.btn {
+    text-decoration: none;
+    background-color: #fff;
+    padding: 11px;
+    border-radius: 50px;
+    color: #004b7d;
+    -webkit-box-shadow: 0px 11px 0px -1px 00000075;
+    box-shadow: 0px 11px 0px -1px #00000075;
+    transition: all .15s ease-in;
+    cursor: pointer;
+    font-weight: bolder;
+    border: 2px solid #000;
+    font-size: 1.3rem;
+    text-align: center;
+    outline: none;
+    letter-spacing: 1px;
+
+    &:hover {
+        box-shadow: none;
+        transform: translateY(5px);
+    }
+}
+
+// Display Flex class
+.df-r {
+    display: flex;
+}
+
+.df-c {
+    display: flex;
+    flex-direction: column;
+}
+
+// Input
+.input {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    color: #004b7d;
+    -webkit-box-shadow: 0px 11px 0px -1px 00000075;
+    box-shadow: 0px 11px 0px -1px #00000075;
+    transition: all .18s ease-in;
+    border: 2px solid #000;
+    outline: none;
+    font-size: 1.25rem;
+
+    &:focus {
+        box-shadow: none;
+        transform: translateY(5px);
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .btn {
+        padding: .75vw;
+        font-size: 1.55vw;
+    }
+
+    .input {
+        padding: 0.75vw;
+        font-size: 1.55vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .btn {
+        padding: 1.75vw;
+        font-size: 2.8vw;
+    }
+
+    .input {
+        padding: 1.75vw;
+        font-size: 2.8vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .btn {
+        padding: 2.5vw;
+        font-size: 3vw;
+    }
+
+    .input {
+        padding: 2.5vw;
+        font-size: 3vw;
+    }
+}

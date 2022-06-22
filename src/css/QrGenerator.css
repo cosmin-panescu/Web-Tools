@@ -1,0 +1,20 @@
+.qr-generator {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.qr-generator .qr-generator-wrapper {
+  margin-top: 3.5vh;
+  gap: 50px;
+  align-items: center;
+}
+.qr-generator .qr-generator-wrapper .qr-code-input {
+  gap: 15px;
+}
+.qr-generator .qr-generator-wrapper .qr-code-image {
+  gap: 15px;
+}
+.qr-generator .qr-generator-wrapper .qr-code-image img {
+  border-radius: 10px;
+}/*# sourceMappingURL=QrGenerator.css.map */
