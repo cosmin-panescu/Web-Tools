@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Web-Tools/static/css/main.ef2f147b.css",
+    "main.js": "/Web-Tools/static/js/main.27f40a14.js",
+    "index.html": "/Web-Tools/index.html",
+    "main.ef2f147b.css.map": "/Web-Tools/static/css/main.ef2f147b.css.map",
+    "main.27f40a14.js.map": "/Web-Tools/static/js/main.27f40a14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef2f147b.css",
+    "static/js/main.27f40a14.js"
+  ]
+}
